@@ -13,6 +13,9 @@ function App() {
     return isAuthenticated ? element : <Navigate to="/login" />
   }
 
+
+//
+
   return (
     <div className="App">
       <RefrshHandler setIsAuthenticated={setIsAuthenticated} />
